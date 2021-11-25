@@ -7,7 +7,6 @@
 ##      @author : Ozan AKYEL
 
 """
-import os.path
 import cv2
 import os
 
