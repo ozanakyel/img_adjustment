@@ -1,11 +1,19 @@
-import os.path
+"""
+##      crop.py
+##      version 1
+##      python --version : 3.6.13
+##      cv2.__version__ : 4.5.4-dev
+##      emailremonved@ ( ozan.akyel54@gmail.com )
+##      @author : Ozan AKYEL
 
+"""
+import os.path
 import cv2
 import os
 
 i=1
-image_folder = 'C:/Users/ozan.akyel/Desktop/project 2021/siperlik toka/raw_datas/tip2_raw/'     # resimlerin okunacağı klasör
-save_folder = 'C:/Users/ozan.akyel/Desktop/project 2021/siperlik toka/raw_datas/tip2_raw_crop'        # kaydedilecek klasör
+image_folder = 'C:/Users/ozan.akyel/Desktop/project 2021/siperlik toka/raw_datas/tip2_raw/'     # source of reading image folder
+save_folder = 'C:/Users/ozan.akyel/Desktop/project 2021/siperlik toka/raw_datas/tip2_raw_crop'        # save folder (target)
 def crop(name):
     image = cv2.imread(image_folder+name)
     name, ext = name.split('.')                                             # resim isminden .jpg ayrılıyor
