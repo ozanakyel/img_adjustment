@@ -3,7 +3,7 @@
 ##      version 1
 ##      python --version : 3.6.13
 ##      cv2.__version__ : 4.5.4-dev
-##      emailremonved@ ( ozan.akyel54@gmail.com )
+##      emailremoved@ ( ozan.akyel54@gmail.com )
 ##      @author : Ozan AKYEL
 
 """
